@@ -22,11 +22,15 @@ namespace GitPractice
 
         public int Multiply(int num1, NetTcpStyleUriParser num2)
         {
-            return 0;
+            int product = 0;
+            product = num1 * num2;
+            return product;
         }
         public int Divide (int num1, in num2)
         {
-            return 0;
+            int quotient = 0;
+            quotient = num1 / num2;
+            return quotient;
         }
     }
 }
